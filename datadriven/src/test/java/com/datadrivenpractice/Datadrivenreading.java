@@ -51,8 +51,8 @@ public class Datadrivenreading {
 			String adress = reader.getCellData(sheetName, "adress", i);
 			String adress2 = reader.getCellData(sheetName, "adress2", i);
 			String city = reader.getCellData(sheetName, "city", i);
-			String pincode = reader.getCellData(sheetName, "pincode", i);
-			String mobnum = reader.getCellData(sheetName, "mobilenumber", i);
+			String pincode = reader.getCellData(sheetName, "pincode",i);
+			String mobnum = reader.getCellData(sheetName, "mobilenumber",i);
 
 			/*
 			 * String mr ="(//*[@type='radio'])[1]"; String mrs="(//*[@type='radio'])[2]";
